@@ -1,3 +1,6 @@
+![CI](https://github.com/pranavkp71/adsync-mini/actions/workflows/ci.yml/badge.svg)
+
+
 # AdSync Mini 
 
 AdSync Mini is a lightweight AdTech backend system built with **Flask**, **PostgreSQL**, and **Docker**. It simulates a simplified ad campaign sync and reporting platform — ideal for showcasing backend, CI/CD, and DevOps skills.
