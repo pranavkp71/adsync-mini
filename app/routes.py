@@ -4,6 +4,14 @@ import json
 
 main = Blueprint("main", __name__)
 
+@main.route("/")
+def home():
+    return "Wlcome to AdSync"
+
+@main.route('/health')
+def health():
+    return {"status": "ok"}
+
 @main.route("/sync", methods=["POST"])
 def sync_campaigns():
     with open("mock_data/campaigns.json") as f:
