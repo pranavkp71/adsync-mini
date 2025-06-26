@@ -12,7 +12,7 @@ def sync_campaigns():
     Campaign.query.delete()
     for entry in data:
         campaign = Campaign(
-            name = entry["name"]
+            name = entry["name"],
             impressions = entry["impressions"],
             clicks = entry["clicks"]
         )
